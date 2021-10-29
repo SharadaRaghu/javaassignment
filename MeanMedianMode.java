@@ -4,7 +4,7 @@ import java.util.List;
 
 
 
-public class MMM {
+public class MeanMedianMode {
 	
 	public static int sumOfArray(Integer[] a, int n)
     {
