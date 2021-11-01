@@ -35,10 +35,12 @@ public class EnjoyRide {
 		 hours = scanner.nextInt();
 		 int totalAdult = 50;
 		 int totalChild = 40;
-		 int total = totalChild+totalAdult;
-		 int sum= total*hours;
-		 System.out.println("Adults ride fare:"+totalAdult);
-		 System.out.println("Children ride fare:" +totalChild);
+		 int one = adults*totalAdult;
+		 int two = children*totalChild;
+		 int total= one + two;
+		 int sum = total * hours;
+		 System.out.println("Adults ride fare:"+totalAdult+ "$");
+		 System.out.println("Children ride fare:" +totalChild+ "$");
 		 System.out.println("Total hours of ride:" +hours);
 		 System.out.println("Total money collected:" +sum + "$");
 		 break;
@@ -56,10 +58,12 @@ public class EnjoyRide {
 		 hours1 = scanner1.nextInt();
 		 int totalAdult1 = 60;
 		 int totalChild1 = 30;
-		 int total1 = totalChild1+totalAdult1;
-		 int sum1= total1*hours1;
-		 System.out.println("Adults ride fare:"+totalAdult1);
-		 System.out.println("Children ride fare:" +totalChild1);
+		 int one1 = adults1*totalAdult1;
+		 int two1 = children1*totalChild1;
+		 int total1= one1 + two1;
+		 int sum1 = total1 * hours1;
+		 System.out.println("Adults ride fare:"+totalAdult1+ "$");
+		 System.out.println("Children ride fare:" +totalChild1+ "$");
 		 System.out.println("Total hours of ride:" +hours1);
 		 System.out.println("Total money collected:" +sum1+ "$");
 		 break;
@@ -77,10 +81,12 @@ public class EnjoyRide {
 		 hours2 = scanner2.nextInt();
 		 int totalAdult2 = 45;
 		 int totalChild2 = 25;
-		 int total2 = totalChild2+totalAdult2;
-		 int sum2= total2*hours2;
-		 System.out.println("Adults ride fare:"+totalAdult2);
-		 System.out.println("Children ride fare:" +totalChild2);
+		 int one2 = adults2*totalAdult2;
+		 int two2 = children2*totalChild2;
+		 int total2= one2 + two2;
+		 int sum2 = total2 * hours2;
+		 System.out.println("Adults ride fare:"+totalAdult2+ "$");
+		 System.out.println("Children ride fare:" +totalChild2+ "$");
 		 System.out.println("Total hours of ride:" +hours2);
 		 System.out.println("Total money collected:" +sum2+ "$");
 		 break;
@@ -98,10 +104,12 @@ public class EnjoyRide {
 		 hours3 = scanner3.nextInt();
 		 int totalAdult3 = 50;
 		 int totalChild3 = 40;
-		 int total3 = totalChild3+totalAdult3;
-		 int sum3= total3*hours3;
-		 System.out.println("Adults ride fare:"+totalAdult3);
-		 System.out.println("Children ride fare:" +totalChild3);
+		 int one3 = adults3*totalAdult3;
+		 int two3 = children3*totalChild3;
+		 int total3= one3 + two3;
+		 int sum3 = total3 * hours3;
+		 System.out.println("Adults ride fare:"+totalAdult3+ "$");
+		 System.out.println("Children ride fare:" +totalChild3+ "$");
 		 System.out.println("Total hours of ride:" +hours3);
 		 System.out.println("Total money collected:" +sum3+ "$");
 		 break;
@@ -119,10 +127,12 @@ public class EnjoyRide {
 		 hours4 = scanner4.nextInt();
 		 int totalAdult4 = 70;
 		 int totalChild4 = 60;
-		 int total4 = totalChild4+totalAdult4;
-		 int sum4= total4*hours4;
-		 System.out.println("Adults ride fare:"+totalAdult4);
-		 System.out.println("Children ride fare:" +totalChild4);
+		 int one4 = adults4*totalAdult4;
+		 int two4 = children4*totalChild4;
+		 int total4= one4 + two4;
+		 int sum4= total4 * hours4;
+		 System.out.println("Adults ride fare:"+totalAdult4+ "$");
+		 System.out.println("Children ride fare:" +totalChild4+ "$");
 		 System.out.println("Total hours of ride:" +hours4);
 		 System.out.println("Total money collected:" +sum4+ "$");
 		 break;
@@ -139,6 +149,10 @@ public class EnjoyRide {
 	 loop =false;
 	 }
 	}
+
+
+
+
 
 
 
